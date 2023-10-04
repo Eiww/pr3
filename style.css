@@ -1,0 +1,25 @@
+@media screen and (max-width: 320px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.header {
+  width: 320px;
+}
+
+.header__buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__button {
+  border: none;
+  background: none;
+}
+
+.header__logo {
+  border: none;
+  background: none;
+}
