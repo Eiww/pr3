@@ -1,25 +1,45 @@
-@media screen and (max-width: 320px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-.header {
-  width: 320px;
+body {
+  max-width: 320px;
 }
 
 .header__buttons {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .header__button {
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 .header__logo {
   border: none;
   background: none;
+}
+
+.title {
+  padding-left: 7px;
+  cursor: pointer;
+}
+.title:hover {
+  border-left: 4px solid #41f6d7;
+  transition: 0.1s;
+}
+
+.slidebar {
+  display: flex;
+}
+
+.slidebar__item {
+  color: #7e7e82;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.slidebar__item :hover {
+  color: black;
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
 }
